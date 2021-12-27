@@ -7,7 +7,7 @@ the script consists of tree steps including
 - 2 obtain the sgRNA sequences based on INDEX+PRIMER sequences grep result . 
 - 3 count the sgRNA frequnces and annotate the result with known librarys 
     
-to note, as the raw count could not be directly compared, we then normalized the reads with total library and time a 10^6 allowing comparisong among samples. 
+to note, as the raw count could not be directly compared, we then normalized the reads with total library and time a 10^6 allowing directly comparison among samples. 
 
 The main process steps were processed with `SeqKit` tool and `csvtk` which developed by Wei Shen
 
